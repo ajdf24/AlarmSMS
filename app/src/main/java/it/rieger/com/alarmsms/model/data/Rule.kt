@@ -1,9 +1,10 @@
-package it.rieger.com.alarmsms.model
+package it.rieger.com.alarmsms.model.data
 
 import android.arch.persistence.room.Entity
 import android.arch.persistence.room.PrimaryKey
+import it.rieger.com.alarmsms.model.ModelConstants
 
-@Entity(tableName = "rules")
+@Entity(tableName = ModelConstants.RULE_TABLE_NAME)
 data class Rule(@PrimaryKey(autoGenerate = true) val id: Long?,
                 val ruleName: String,
                 val sender: String,

@@ -1,4 +1,4 @@
-package it.rieger.com.alarmsms.model
+package it.rieger.com.alarmsms.model.data
 
 import android.arch.persistence.room.Entity
 import android.arch.persistence.room.PrimaryKey
