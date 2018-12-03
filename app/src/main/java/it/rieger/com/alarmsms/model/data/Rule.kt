@@ -1,5 +1,6 @@
 package it.rieger.com.alarmsms.model.data
 
+import android.arch.persistence.room.Embedded
 import android.arch.persistence.room.Entity
 import android.arch.persistence.room.PrimaryKey
 import it.rieger.com.alarmsms.model.ModelConstants
@@ -10,7 +11,9 @@ data class Rule(@PrimaryKey(autoGenerate = true) val id: Long?,
                 val sender: String,
                 val occuredWords: String,
                 val nonOccuredWords: String,
+                @Embedded
                 val alarmSound: Sound,
+                @Embedded
                 val automaticalAnswer: AnswerBundle,
                 val navigationTarget: String,
                 val readThisMessage: Boolean,

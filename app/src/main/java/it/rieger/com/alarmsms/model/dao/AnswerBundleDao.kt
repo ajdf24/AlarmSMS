@@ -12,7 +12,7 @@ interface AnswerBundleDao {
     fun getAll(): List<AnswerBundle>
 
     @Insert(onConflict = OnConflictStrategy.REPLACE)
-    fun insert(rule: Rule)
+    fun insert(answerBundle: AnswerBundle)
 
     @Query("DELETE from " + ModelConstants.ANSWER_BUNDLE_TABLE_NAME)
     fun deleteAll()
