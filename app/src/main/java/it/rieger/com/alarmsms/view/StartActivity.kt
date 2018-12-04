@@ -1,12 +1,10 @@
 package it.rieger.com.alarmsms.view
 
-import android.support.design.widget.Snackbar
 import android.support.v7.app.AppCompatActivity
 
 import android.support.v4.app.Fragment
 import android.support.v4.app.FragmentManager
 import android.support.v4.app.FragmentPagerAdapter
-import android.support.v4.view.ViewPager
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.Menu
@@ -16,7 +14,6 @@ import android.view.ViewGroup
 
 import it.rieger.com.alarmsms.R
 import kotlinx.android.synthetic.main.activity_start.*
-import kotlinx.android.synthetic.main.fragment_welcome.view.*
 
 class StartActivity : AppCompatActivity() {
 
