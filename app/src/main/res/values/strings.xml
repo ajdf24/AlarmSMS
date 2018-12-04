@@ -1,9 +1,25 @@
 <resources>
     <string name="app_name">AlarmSMS</string>
+
+    <string name="welcome_text">Welcome to AlarmSMS</string>
+    <string name="welcome_text_description">Please configure the App now for the best result</string>
+
+    <!-- Button texts -->
+    <string name="next_button_text">Next</string>
+
+    <!-- Content descriptions -->
+    <string name="content_description_department_image">department image</string>
+
+    <!-- Default Strings-->
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
     <string name="nav_header_title">Android Studio</string>
     <string name="nav_header_subtitle">android.studio@android.com</string>
     <string name="nav_header_desc">Navigation header</string>
     <string name="action_settings">Settings</string>
+    <string name="title_activity_start">StartActivity</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+
+
+
 </resources>
